@@ -15,7 +15,6 @@ class App extends Component {
 
     this.state = {
       petList: pets,
-      filteredPetList: undefined,
       currentPet: undefined,
     };
   }
@@ -62,23 +61,19 @@ class App extends Component {
 
   onFilter = (searchTerm) => {
     this.setState({
-      filteredPetList: undefined,
+      petList: pets,
     })
 
-    const newPetList = [];
-
-    console.log(searchTerm)
-
     var regEx = new RegExp(searchTerm)
-    this.state.petList.forEach((thisPet, i) => {
-      const masterString = thisPet.name + thisPet.species + thisPet.about
-      if(masterString.match(regEx)) {
-        newPetList.push(thisPet);
-      }
-    });
+
+    const newPetList = pets.filter((pet) => {
+      return (pet.name.match(regEx) || pet.species.match(regEx) || pet.about.match(regEx))
+    })
+
+    console.log(newPetList)
 
     this.setState({
-      filteredPetList: newPetList,
+      petList: newPetList,
     })
   }
 
@@ -99,9 +94,7 @@ class App extends Component {
     }
   }
 
-  render() {
-    // const { currentPet } = this.state.currentPet; // ... this doesn't make sense to me.
-    
+  render() {    
     return (
       <main className="App">
         <header className="app-header">
