@@ -12,7 +12,7 @@ class NewPetForm extends Component {
       name: '', // required
       species: '', // required
       location: '',
-      images: '', // required
+      images: [], // required
       about: '',
     };
   }
@@ -64,6 +64,7 @@ class NewPetForm extends Component {
   }
 
   imagesPlaceholderText = 'image link'
+  invalidImage = ''
 
   onFormSubmit = (event) => {
     event.preventDefault();
@@ -89,7 +90,8 @@ class NewPetForm extends Component {
     
       this.props.addPetCallback(newPet);
     } else {
-      this.imagesPlaceholderText = 'must be valid!';
+      this.imagesPlaceholderText = 'must be valid url!';
+      this.invalidImage = 'invalid-image-form'
       this.setState({
         images: '',
       })
@@ -133,6 +135,7 @@ class NewPetForm extends Component {
         <div>
           <label htmlFor="images" className="new-pet-form--label">Image</label>
           <input 
+            className={this.invalidImage}
             onChange={this.onImageChange}
             value={this.state.images}
             name="images" 
