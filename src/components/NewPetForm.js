@@ -12,7 +12,7 @@ class NewPetForm extends Component {
       name: '', // required
       species: '', // required
       location: '',
-      image: '', // required
+      images: '', // required
       about: '',
     };
   }
@@ -41,7 +41,7 @@ class NewPetForm extends Component {
   onImageChange = (event) => {
     console.log(`Image Field updated ${event.target.value}`);
     this.setState({
-      image: event.target.value,
+      images: event.target.value,
     });
   }
 
@@ -53,17 +53,17 @@ class NewPetForm extends Component {
   }
 
   formValid = () => {
-    const imageValid = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|jpeg)/.test(this.state.image);
+    const imagesValid = /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|jpeg)/.test(this.state.images);
     // this regex is based off of https://regexr.com/3g1v7
 
-    if(imageValid) {
+    if(imagesValid) {
       return true
     } else {
       return false
     }
   }
 
-  imagePlaceholderText = 'image link'
+  imagesPlaceholderText = 'image link'
 
   onFormSubmit = (event) => {
     event.preventDefault();
@@ -73,7 +73,7 @@ class NewPetForm extends Component {
         name: this.state.name,
         species: this.state.species,
         location: this.state.location,
-        image: this.state.image,
+        images: Array(this.state.images),
         about: this.state.about,
       };
 
@@ -83,15 +83,15 @@ class NewPetForm extends Component {
         name: '', // required
         species: '', // required
         location: '',
-        image: '', // required
+        images: '', // required
         about: '',
       });
     
       this.props.addPetCallback(newPet);
     } else {
-      this.imagePlaceholderText = 'must be valid!';
+      this.imagesPlaceholderText = 'must be valid!';
       this.setState({
-        image: '',
+        images: '',
       })
     }
   }
@@ -131,13 +131,13 @@ class NewPetForm extends Component {
             placeholder="location"/>
         </div>
         <div>
-          <label htmlFor="image" className="new-pet-form--label">Image</label>
+          <label htmlFor="images" className="new-pet-form--label">Image</label>
           <input 
             onChange={this.onImageChange}
-            value={this.state.image}
-            name="image" 
+            value={this.state.images}
+            name="images" 
             type="text" 
-            placeholder={this.imagePlaceholderText}
+            placeholder={this.imagesPlaceholderText}
             required />
         </div>
         <div>

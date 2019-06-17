@@ -6,11 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const PetList = (props) => {
-  const petElements = props.pets.map((pet) => {
+  const petElements = props.pets.map((pet, i) => {
       return (
         <PetCard 
           key={pet.id}
-          id={pet.id}
+          id={i}
           name={pet.name}
           species={pet.species}
           about={pet.about}
