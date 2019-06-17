@@ -14,8 +14,10 @@ class App extends Component {
     super(props);
 
     this.state = {
+      allPets: pets,
       petList: pets,
       currentPet: undefined,
+      maxId: pets[pets.length - 1].id
     };
   }
 
@@ -46,32 +48,39 @@ class App extends Component {
 
     this.setState({
       petList: newPetList,
+      allPets: newPetList,
     })
   }
 
   onAddPet = (pet) => {
-    const newPetList = this.state.petList;
+    const newPetList = this.state.allPets;
+    const showPetList = this.state.petList;
+    pet.id = this.state.maxId + 1
 
     newPetList.push(pet)
+    showPetList.push(pet)
 
+    console.log(this.state.allPets)
     this.setState({
-      petList: newPetList,
+      petList: [...new Set(showPetList)],
+      allPets: [...new Set(newPetList)],
+      maxId: pet.id
     })
   }
 
   onFilter = (searchTerm) => {
     this.setState({
-      petList: pets,
+      petList: this.state.allPets,
     })
 
     var regEx = new RegExp(searchTerm)
 
-    const newPetList = pets.filter((pet) => {
+    const newPetList = this.state.allPets.filter((pet) => {
       return (pet.name.match(regEx) || pet.species.match(regEx) || pet.about.match(regEx))
     })
 
     console.log(newPetList)
-
+    console.log(this.state.allPets)
     this.setState({
       petList: newPetList,
     })
@@ -85,15 +94,7 @@ class App extends Component {
       )
     }
   }
-
-  showPetList() {
-    if(this.state.filteredPetList) {
-      return this.state.filteredPetList
-    } else {
-      return this.state.petList
-    }
-  }
-
+  
   render() {    
     return (
       <main className="App">
