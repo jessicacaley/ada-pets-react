@@ -9,8 +9,8 @@ const PetList = (props) => {
   const petElements = props.pets.map((pet, i) => {
       return (
         <PetCard 
-          key={pet.id}
-          id={i}
+          key={i}
+          id={pet.id}
           name={pet.name}
           species={pet.species}
           about={pet.about}
