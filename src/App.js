@@ -60,7 +60,6 @@ class App extends Component {
     newPetList.push(pet)
     showPetList.push(pet)
 
-    console.log(this.state.allPets)
     this.setState({
       petList: [...new Set(showPetList)],
       allPets: [...new Set(newPetList)],
@@ -75,8 +74,6 @@ class App extends Component {
       return (pet.name.toLowerCase().match(regEx) || pet.species.toLowerCase().match(regEx) || pet.about.toLowerCase().match(regEx))
     })
 
-    console.log(newPetList)
-    console.log(this.state.allPets)
     this.setState({
       petList: newPetList,
     })

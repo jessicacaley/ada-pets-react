@@ -77,8 +77,6 @@ class NewPetForm extends Component {
         images: Array(this.state.images),
         about: this.state.about,
       };
-
-      console.log(this.state)
     
       this.setState({
         name: '', // required
