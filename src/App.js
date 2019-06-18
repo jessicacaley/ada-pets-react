@@ -73,10 +73,10 @@ class App extends Component {
       petList: this.state.allPets,
     })
 
-    var regEx = new RegExp(searchTerm)
+    var regEx = new RegExp(searchTerm.toLowerCase())
 
     const newPetList = this.state.allPets.filter((pet) => {
-      return (pet.name.match(regEx) || pet.species.match(regEx) || pet.about.match(regEx))
+      return (pet.name.toLowerCase().match(regEx) || pet.species.toLowerCase().match(regEx) || pet.about.toLowerCase().match(regEx))
     })
 
     console.log(newPetList)
@@ -110,8 +110,8 @@ class App extends Component {
         <section className="pet-list-wrapper">
           <PetList 
             pets={ this.state.petList }
-            onSelectPet={ this.onSelectPet }
-            onRemovePet={ this.onRemovePet } />
+            selectPetCallback={ this.onSelectPet }
+            removePetCallback={ this.onRemovePet } />
         </section>
         <section className="new-pet-form-wrapper">
           <NewPetForm 

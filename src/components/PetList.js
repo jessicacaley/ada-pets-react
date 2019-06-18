@@ -15,8 +15,8 @@ const PetList = (props) => {
           species={pet.species}
           about={pet.about}
           location={pet.location}
-          onSelectPet={props.onSelectPet} 
-          onRemovePet={props.onRemovePet}
+          selectPetCallback={props.selectPetCallback} 
+          removePetCallback={props.removePetCallback}
           pet = {pet} />
       )
   });
