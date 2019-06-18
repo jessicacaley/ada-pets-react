@@ -69,10 +69,6 @@ class App extends Component {
   }
 
   onFilter = (searchTerm) => {
-    this.setState({
-      petList: this.state.allPets,
-    })
-
     var regEx = new RegExp(searchTerm.toLowerCase())
 
     const newPetList = this.state.allPets.filter((pet) => {
