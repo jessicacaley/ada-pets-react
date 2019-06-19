@@ -102,7 +102,7 @@ class NewPetForm extends Component {
   render() {
     return (
       <form  className="new-pet-form" onSubmit={this.onFormSubmit}>
-        <h3>Add a Pet</h3>
+        <h3>Add a Pet!</h3>
         <div>
           <label htmlFor="name" className="new-pet-form--label">Name</label>
           <input 

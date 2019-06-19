@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPetForm that it matches an existing snapshot 1`] = `
+<form
+  className="new-pet-form"
+  onSubmit={[Function]}
+>
+  <h3>
+    Add a Pet!
+  </h3>
+  <div>
+    <label
+      className="new-pet-form--label"
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      name="name"
+      onChange={[Function]}
+      placeholder="name"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <div>
+    <label
+      className="new-pet-form--label"
+      htmlFor="species"
+    >
+      Species
+    </label>
+    <input
+      name="species"
+      onChange={[Function]}
+      placeholder="species"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <div>
+    <label
+      className="new-pet-form--label"
+      htmlFor="location"
+    >
+      Location
+    </label>
+    <input
+      name="location"
+      onChange={[Function]}
+      placeholder="location"
+      type="text"
+      value=""
+    />
+  </div>
+  <div>
+    <label
+      className="new-pet-form--label"
+      htmlFor="images"
+    >
+      Image
+    </label>
+    <input
+      className=""
+      name="images"
+      onChange={[Function]}
+      placeholder="image link"
+      required={true}
+      type="text"
+      value={Array []}
+    />
+  </div>
+  <div>
+    <label
+      className="new-pet-form--label"
+      htmlFor="about"
+    >
+      About
+    </label>
+  </div>
+  <div>
+    <textarea
+      className="new-pet-form--about"
+      form="new-pet-form"
+      name="about"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <input
+    className="btn btn-success new-pet-form--submit"
+    name="submit"
+    type="submit"
+    value="Add a Pet"
+  />
+</form>
+`;

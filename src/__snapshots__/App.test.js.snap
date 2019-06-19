@@ -1,0 +1,862 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App that it matches an existing snapshot 1`] = `
+<App>
+  <main
+    className="App"
+  >
+    <header
+      className="app-header"
+    >
+      <h1>
+        Ada Pets
+      </h1>
+    </header>
+    <section
+      className="search-bar-wrapper"
+    >
+      <SearchBar
+        filterPetsCallback={[Function]}
+      >
+        <section
+          className="search-bar"
+        >
+          <input
+            className="search-bar"
+            name="term"
+            onChange={[Function]}
+            placeholder="Filter Pets"
+            type="text"
+            value=""
+          />
+        </section>
+      </SearchBar>
+    </section>
+    <section
+      className="pet-list-wrapper"
+    >
+      <PetList
+        pets={
+          Array [
+            Object {
+              "about": "This is Everly. She is a 12 week old Spaniel/Jack Russell/Beagle mix. Right now she weighs about 13 pounds and will probably be a medium size when grown. Her mother was around 40 pounds. Everly is one of nine in her litter. She is outgoing and playful. She already has been hiking with my daughter and did great . She will make you smile with her bubbly personality and laugh at her antics. She is ready and waiting for her forever family. HS
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.** 
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.",
+              "id": 1,
+              "images": Array [
+                "images/pet-1-img-1.jpg",
+                "images/pet-1-img-2.jpg",
+                "images/pet-1-img-3.jpg",
+              ],
+              "location": "Seattle, WA",
+              "name": "Everly B",
+              "species": "dog",
+            },
+            Object {
+              "about": "This is Ethan. He is a 12 week old Husky/spaniel mix. Right now he weighs about 14 pounds but will be a large dog when grown. Ethan is a love of a boy. He’s quiet and gentle. He is definitely the most easy going of his 8 siblings. His demeanor is playful yet not rambunctious like most puppies. This little charmer will win you over. He does have a partial blue eye which makes him look a little odd but I think it’s gorgeous. HS
+
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.**
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.
+
+Weight Scale: Small = less than 25
+
+Medium = 26-60
+
+Large = 61-100",
+              "id": 2,
+              "images": Array [
+                "images/pet-2-img-1.jpg",
+                "images/pet-2-img-3.jpg",
+              ],
+              "location": "Tacoma, WA",
+              "name": "Ethan B",
+              "species": "dog",
+            },
+            Object {
+              "about": "Baby Simba is a sweet 1 year old female. She came to the shelter because her owner could no longer care for her. Baby Simba weighs 6 pounds, gets along well with other cats, and she will be spayed before going to her forever home.
+
+Reference Baby Simba's ID number A361601. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov",
+              "id": 3,
+              "images": Array [
+                "images/pet-3-img-1.jpg",
+                "images/pet-3-img-2.jpg",
+              ],
+              "location": "Bellevue, WA",
+              "name": "Baby Simba",
+              "species": "cat",
+            },
+            Object {
+              "about": "“Baby Ruth! Baby Ruth!” Our older girl Ruth here may be a little older but don’t count her out! Ruth is a timid older lady that would love a new home for the rest of her days. Ruth loves attention but is slow to warming up just to make sure that you are here to stay. Her favorite spot in a home would be either on your lap or laying is the sun that shines through the windows. Ruth would like a calmer home due to being older and timid. She would make a great companion for someone who enjoys having a calmer cat that will do her own thing but gives you plenty of attention! If your home sounds like the perfect match for Ruth, come and meet her today!",
+              "id": 4,
+              "images": Array [
+                "images/pet-4-img-1.jpg",
+                "images/pet-4-img-2.jpg",
+              ],
+              "location": "Seattle, WA",
+              "name": "Ruth",
+              "species": "cat",
+            },
+            Object {
+              "about": "Hi, my name is Sherry. I am a lab mix and I was born June 8, 2018. I was about to be sent to a shelter when my foster mom saved me. Although my foster family loves me very much, they want me to find the best home possible. I have all of my shots up to date and I am already spayed. I’m still a puppy but I’m working really hard on being potty trained. I am sweet to everyone I meet and very playful. I get along with other dogs and children very well. I love hugs and kisses and hope to find a new home soon.",
+              "id": 5,
+              "images": Array [
+                "images/pet-5-img-1.jpg",
+                "images/pet-5-img-2.jpg",
+              ],
+              "location": "Seattle, WA",
+              "name": "Sherry",
+              "species": "dog",
+            },
+            Object {
+              "about": "This girl is a bundle of energy and ready to be your next adventure buddy! She is smart attentive and very tuned in to you. We think she would make an awesome agility dog. Coco is 11 months old and 32 lbs. She is spayed and UTD on her vaccines. Coco is a German Shepherd Fiest mix. So she has beauty and brains! She plays well with other dogs and loves children of all ages. She would love a home with room to run! Date in 11/25/18 Date available 11/25/18",
+              "id": 6,
+              "images": Array [
+                "images/pet-6-img-1.jpg",
+              ],
+              "location": "Redmond, WA",
+              "name": "Coco",
+              "species": "dog",
+            },
+            Object {
+              "about": "Hi guys. My name is Rex. 2 weeks ago I was living outside however these nice ladies rescued me and my brother (Tex). I'm super sad now as my brother got adopted this past weekend (even though I'm super happy for him) and I have no one to play with. I'd love an indoor forever home for the holidays especially with a feline siblings to play with. I've been neutered, had my rabies, FVRCP and I'm chipped.  My adoption fee is $65",
+              "id": 7,
+              "images": Array [
+                "images/pet-7-img-1.jpg",
+                "images/pet-7-img-2.jpg",
+              ],
+              "location": "Redmond, WA",
+              "name": "Rex",
+              "species": "cat",
+            },
+          ]
+        }
+        removePetCallback={[Function]}
+        selectPetCallback={[Function]}
+      >
+        <div
+          className="card-group"
+        >
+          <PetCard
+            about="This is Everly. She is a 12 week old Spaniel/Jack Russell/Beagle mix. Right now she weighs about 13 pounds and will probably be a medium size when grown. Her mother was around 40 pounds. Everly is one of nine in her litter. She is outgoing and playful. She already has been hiking with my daughter and did great . She will make you smile with her bubbly personality and laugh at her antics. She is ready and waiting for her forever family. HS
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.** 
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs."
+            id={1}
+            key="0"
+            location="Seattle, WA"
+            name="Everly B"
+            pet={
+              Object {
+                "about": "This is Everly. She is a 12 week old Spaniel/Jack Russell/Beagle mix. Right now she weighs about 13 pounds and will probably be a medium size when grown. Her mother was around 40 pounds. Everly is one of nine in her litter. She is outgoing and playful. She already has been hiking with my daughter and did great . She will make you smile with her bubbly personality and laugh at her antics. She is ready and waiting for her forever family. HS
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.** 
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.",
+                "id": 1,
+                "images": Array [
+                  "images/pet-1-img-1.jpg",
+                  "images/pet-1-img-2.jpg",
+                  "images/pet-1-img-3.jpg",
+                ],
+                "location": "Seattle, WA",
+                "name": "Everly B",
+                "species": "dog",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="dog"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐕
+                 
+                1
+                 - 
+                Everly B
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                This is Everly. She is a 12 week old Spaniel/Jack Russell/Beagle mix. Right now she weighs about 13 pounds and will probably be ...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Seattle, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="This is Ethan. He is a 12 week old Husky/spaniel mix. Right now he weighs about 14 pounds but will be a large dog when grown. Ethan is a love of a boy. He’s quiet and gentle. He is definitely the most easy going of his 8 siblings. His demeanor is playful yet not rambunctious like most puppies. This little charmer will win you over. He does have a partial blue eye which makes him look a little odd but I think it’s gorgeous. HS
+
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.**
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.
+
+Weight Scale: Small = less than 25
+
+Medium = 26-60
+
+Large = 61-100"
+            id={2}
+            key="1"
+            location="Tacoma, WA"
+            name="Ethan B"
+            pet={
+              Object {
+                "about": "This is Ethan. He is a 12 week old Husky/spaniel mix. Right now he weighs about 14 pounds but will be a large dog when grown. Ethan is a love of a boy. He’s quiet and gentle. He is definitely the most easy going of his 8 siblings. His demeanor is playful yet not rambunctious like most puppies. This little charmer will win you over. He does have a partial blue eye which makes him look a little odd but I think it’s gorgeous. HS
+
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.**
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.
+
+Weight Scale: Small = less than 25
+
+Medium = 26-60
+
+Large = 61-100",
+                "id": 2,
+                "images": Array [
+                  "images/pet-2-img-1.jpg",
+                  "images/pet-2-img-3.jpg",
+                ],
+                "location": "Tacoma, WA",
+                "name": "Ethan B",
+                "species": "dog",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="dog"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐕
+                 
+                2
+                 - 
+                Ethan B
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                This is Ethan. He is a 12 week old Husky/spaniel mix. Right now he weighs about 14 pounds but will be a large dog when grown. Et...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Tacoma, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="Baby Simba is a sweet 1 year old female. She came to the shelter because her owner could no longer care for her. Baby Simba weighs 6 pounds, gets along well with other cats, and she will be spayed before going to her forever home.
+
+Reference Baby Simba's ID number A361601. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov"
+            id={3}
+            key="2"
+            location="Bellevue, WA"
+            name="Baby Simba"
+            pet={
+              Object {
+                "about": "Baby Simba is a sweet 1 year old female. She came to the shelter because her owner could no longer care for her. Baby Simba weighs 6 pounds, gets along well with other cats, and she will be spayed before going to her forever home.
+
+Reference Baby Simba's ID number A361601. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov",
+                "id": 3,
+                "images": Array [
+                  "images/pet-3-img-1.jpg",
+                  "images/pet-3-img-2.jpg",
+                ],
+                "location": "Bellevue, WA",
+                "name": "Baby Simba",
+                "species": "cat",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="cat"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐈
+                 
+                3
+                 - 
+                Baby Simba
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                Baby Simba is a sweet 1 year old female. She came to the shelter because her owner could no longer care for her. Baby Simba weig...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Bellevue, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="“Baby Ruth! Baby Ruth!” Our older girl Ruth here may be a little older but don’t count her out! Ruth is a timid older lady that would love a new home for the rest of her days. Ruth loves attention but is slow to warming up just to make sure that you are here to stay. Her favorite spot in a home would be either on your lap or laying is the sun that shines through the windows. Ruth would like a calmer home due to being older and timid. She would make a great companion for someone who enjoys having a calmer cat that will do her own thing but gives you plenty of attention! If your home sounds like the perfect match for Ruth, come and meet her today!"
+            id={4}
+            key="3"
+            location="Seattle, WA"
+            name="Ruth"
+            pet={
+              Object {
+                "about": "“Baby Ruth! Baby Ruth!” Our older girl Ruth here may be a little older but don’t count her out! Ruth is a timid older lady that would love a new home for the rest of her days. Ruth loves attention but is slow to warming up just to make sure that you are here to stay. Her favorite spot in a home would be either on your lap or laying is the sun that shines through the windows. Ruth would like a calmer home due to being older and timid. She would make a great companion for someone who enjoys having a calmer cat that will do her own thing but gives you plenty of attention! If your home sounds like the perfect match for Ruth, come and meet her today!",
+                "id": 4,
+                "images": Array [
+                  "images/pet-4-img-1.jpg",
+                  "images/pet-4-img-2.jpg",
+                ],
+                "location": "Seattle, WA",
+                "name": "Ruth",
+                "species": "cat",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="cat"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐈
+                 
+                4
+                 - 
+                Ruth
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                “Baby Ruth! Baby Ruth!” Our older girl Ruth here may be a little older but don’t count her out! Ruth is a timid older lady that ...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Seattle, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="Hi, my name is Sherry. I am a lab mix and I was born June 8, 2018. I was about to be sent to a shelter when my foster mom saved me. Although my foster family loves me very much, they want me to find the best home possible. I have all of my shots up to date and I am already spayed. I’m still a puppy but I’m working really hard on being potty trained. I am sweet to everyone I meet and very playful. I get along with other dogs and children very well. I love hugs and kisses and hope to find a new home soon."
+            id={5}
+            key="4"
+            location="Seattle, WA"
+            name="Sherry"
+            pet={
+              Object {
+                "about": "Hi, my name is Sherry. I am a lab mix and I was born June 8, 2018. I was about to be sent to a shelter when my foster mom saved me. Although my foster family loves me very much, they want me to find the best home possible. I have all of my shots up to date and I am already spayed. I’m still a puppy but I’m working really hard on being potty trained. I am sweet to everyone I meet and very playful. I get along with other dogs and children very well. I love hugs and kisses and hope to find a new home soon.",
+                "id": 5,
+                "images": Array [
+                  "images/pet-5-img-1.jpg",
+                  "images/pet-5-img-2.jpg",
+                ],
+                "location": "Seattle, WA",
+                "name": "Sherry",
+                "species": "dog",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="dog"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐕
+                 
+                5
+                 - 
+                Sherry
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                Hi, my name is Sherry. I am a lab mix and I was born June 8, 2018. I was about to be sent to a shelter when my foster mom saved ...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Seattle, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="This girl is a bundle of energy and ready to be your next adventure buddy! She is smart attentive and very tuned in to you. We think she would make an awesome agility dog. Coco is 11 months old and 32 lbs. She is spayed and UTD on her vaccines. Coco is a German Shepherd Fiest mix. So she has beauty and brains! She plays well with other dogs and loves children of all ages. She would love a home with room to run! Date in 11/25/18 Date available 11/25/18"
+            id={6}
+            key="5"
+            location="Redmond, WA"
+            name="Coco"
+            pet={
+              Object {
+                "about": "This girl is a bundle of energy and ready to be your next adventure buddy! She is smart attentive and very tuned in to you. We think she would make an awesome agility dog. Coco is 11 months old and 32 lbs. She is spayed and UTD on her vaccines. Coco is a German Shepherd Fiest mix. So she has beauty and brains! She plays well with other dogs and loves children of all ages. She would love a home with room to run! Date in 11/25/18 Date available 11/25/18",
+                "id": 6,
+                "images": Array [
+                  "images/pet-6-img-1.jpg",
+                ],
+                "location": "Redmond, WA",
+                "name": "Coco",
+                "species": "dog",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="dog"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐕
+                 
+                6
+                 - 
+                Coco
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                This girl is a bundle of energy and ready to be your next adventure buddy! She is smart attentive and very tuned in to you. We t...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Redmond, WA
+              </section>
+            </div>
+          </PetCard>
+          <PetCard
+            about="Hi guys. My name is Rex. 2 weeks ago I was living outside however these nice ladies rescued me and my brother (Tex). I'm super sad now as my brother got adopted this past weekend (even though I'm super happy for him) and I have no one to play with. I'd love an indoor forever home for the holidays especially with a feline siblings to play with. I've been neutered, had my rabies, FVRCP and I'm chipped.  My adoption fee is $65"
+            id={7}
+            key="6"
+            location="Redmond, WA"
+            name="Rex"
+            pet={
+              Object {
+                "about": "Hi guys. My name is Rex. 2 weeks ago I was living outside however these nice ladies rescued me and my brother (Tex). I'm super sad now as my brother got adopted this past weekend (even though I'm super happy for him) and I have no one to play with. I'd love an indoor forever home for the holidays especially with a feline siblings to play with. I've been neutered, had my rabies, FVRCP and I'm chipped.  My adoption fee is $65",
+                "id": 7,
+                "images": Array [
+                  "images/pet-7-img-1.jpg",
+                  "images/pet-7-img-2.jpg",
+                ],
+                "location": "Redmond, WA",
+                "name": "Rex",
+                "species": "cat",
+              }
+            }
+            removePetCallback={[Function]}
+            selectPetCallback={[Function]}
+            species="cat"
+          >
+            <div
+              className="card pet-card"
+            >
+              <section
+                className="pet-card--header"
+              >
+                🐈
+                 
+                7
+                 - 
+                Rex
+                <button
+                  className="btn btn-primary pet-card--select-pet-btn"
+                  onClick={[Function]}
+                >
+                  Select
+                </button>
+                <button
+                  aria-label="Close"
+                  className="btn btn-danger pet-card--close-btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Close
+                </button>
+              </section>
+              <section
+                className="pet-card--body"
+              >
+                Hi guys. My name is Rex. 2 weeks ago I was living outside however these nice ladies rescued me and my brother (Tex). I'm super s...
+              </section>
+              <section
+                className="pet-card--footer text-muted"
+              >
+                Redmond, WA
+              </section>
+            </div>
+          </PetCard>
+        </div>
+      </PetList>
+    </section>
+    <section
+      className="new-pet-form-wrapper"
+    >
+      <NewPetForm
+        addPetCallback={[Function]}
+      >
+        <form
+          className="new-pet-form"
+          onSubmit={[Function]}
+        >
+          <h3>
+            Add a Pet!
+          </h3>
+          <div>
+            <label
+              className="new-pet-form--label"
+              htmlFor="name"
+            >
+              Name
+            </label>
+            <input
+              name="name"
+              onChange={[Function]}
+              placeholder="name"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              className="new-pet-form--label"
+              htmlFor="species"
+            >
+              Species
+            </label>
+            <input
+              name="species"
+              onChange={[Function]}
+              placeholder="species"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              className="new-pet-form--label"
+              htmlFor="location"
+            >
+              Location
+            </label>
+            <input
+              name="location"
+              onChange={[Function]}
+              placeholder="location"
+              type="text"
+              value=""
+            />
+          </div>
+          <div>
+            <label
+              className="new-pet-form--label"
+              htmlFor="images"
+            >
+              Image
+            </label>
+            <input
+              className=""
+              name="images"
+              onChange={[Function]}
+              placeholder="image link"
+              required={true}
+              type="text"
+              value={Array []}
+            />
+          </div>
+          <div>
+            <label
+              className="new-pet-form--label"
+              htmlFor="about"
+            >
+              About
+            </label>
+          </div>
+          <div>
+            <textarea
+              className="new-pet-form--about"
+              form="new-pet-form"
+              name="about"
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+          <input
+            className="btn btn-success new-pet-form--submit"
+            name="submit"
+            type="submit"
+            value="Add a Pet"
+          />
+        </form>
+      </NewPetForm>
+    </section>
+  </main>
+</App>
+`;
+
+exports[`App that it renders App with shallow rendering 1`] = `
+<main
+  className="App"
+>
+  <header
+    className="app-header"
+  >
+    <h1>
+      Ada Pets
+    </h1>
+  </header>
+  <section
+    className="search-bar-wrapper"
+  >
+    <SearchBar
+      filterPetsCallback={[Function]}
+    />
+  </section>
+  <section
+    className="pet-list-wrapper"
+  >
+    <PetList
+      pets={
+        Array [
+          Object {
+            "about": "This is Everly. She is a 12 week old Spaniel/Jack Russell/Beagle mix. Right now she weighs about 13 pounds and will probably be a medium size when grown. Her mother was around 40 pounds. Everly is one of nine in her litter. She is outgoing and playful. She already has been hiking with my daughter and did great . She will make you smile with her bubbly personality and laugh at her antics. She is ready and waiting for her forever family. HS
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.** 
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.",
+            "id": 1,
+            "images": Array [
+              "images/pet-1-img-1.jpg",
+              "images/pet-1-img-2.jpg",
+              "images/pet-1-img-3.jpg",
+            ],
+            "location": "Seattle, WA",
+            "name": "Everly B",
+            "species": "dog",
+          },
+          Object {
+            "about": "This is Ethan. He is a 12 week old Husky/spaniel mix. Right now he weighs about 14 pounds but will be a large dog when grown. Ethan is a love of a boy. He’s quiet and gentle. He is definitely the most easy going of his 8 siblings. His demeanor is playful yet not rambunctious like most puppies. This little charmer will win you over. He does have a partial blue eye which makes him look a little odd but I think it’s gorgeous. HS
+
+
+**It is rare that we know with certainty the ages or mixes that make up our wonderful dogs, but we do our best to be as accurate as possible based upon our many years in rescue.**
+
+Adoption: $325 which covers quarantine, shots, worming, food, medical records, spaying/neutering, microchip, and an Alabama State Health Certificate.
+
+Transport, if needed : $120.00 We consider the transport to be of great importance and, as such, take particular care of the dogs during the trip from Alabama. We make every effort to arrive with healthy and minimally stressed dogs.
+
+Weight Scale: Small = less than 25
+
+Medium = 26-60
+
+Large = 61-100",
+            "id": 2,
+            "images": Array [
+              "images/pet-2-img-1.jpg",
+              "images/pet-2-img-3.jpg",
+            ],
+            "location": "Tacoma, WA",
+            "name": "Ethan B",
+            "species": "dog",
+          },
+          Object {
+            "about": "Baby Simba is a sweet 1 year old female. She came to the shelter because her owner could no longer care for her. Baby Simba weighs 6 pounds, gets along well with other cats, and she will be spayed before going to her forever home.
+
+Reference Baby Simba's ID number A361601. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov",
+            "id": 3,
+            "images": Array [
+              "images/pet-3-img-1.jpg",
+              "images/pet-3-img-2.jpg",
+            ],
+            "location": "Bellevue, WA",
+            "name": "Baby Simba",
+            "species": "cat",
+          },
+          Object {
+            "about": "“Baby Ruth! Baby Ruth!” Our older girl Ruth here may be a little older but don’t count her out! Ruth is a timid older lady that would love a new home for the rest of her days. Ruth loves attention but is slow to warming up just to make sure that you are here to stay. Her favorite spot in a home would be either on your lap or laying is the sun that shines through the windows. Ruth would like a calmer home due to being older and timid. She would make a great companion for someone who enjoys having a calmer cat that will do her own thing but gives you plenty of attention! If your home sounds like the perfect match for Ruth, come and meet her today!",
+            "id": 4,
+            "images": Array [
+              "images/pet-4-img-1.jpg",
+              "images/pet-4-img-2.jpg",
+            ],
+            "location": "Seattle, WA",
+            "name": "Ruth",
+            "species": "cat",
+          },
+          Object {
+            "about": "Hi, my name is Sherry. I am a lab mix and I was born June 8, 2018. I was about to be sent to a shelter when my foster mom saved me. Although my foster family loves me very much, they want me to find the best home possible. I have all of my shots up to date and I am already spayed. I’m still a puppy but I’m working really hard on being potty trained. I am sweet to everyone I meet and very playful. I get along with other dogs and children very well. I love hugs and kisses and hope to find a new home soon.",
+            "id": 5,
+            "images": Array [
+              "images/pet-5-img-1.jpg",
+              "images/pet-5-img-2.jpg",
+            ],
+            "location": "Seattle, WA",
+            "name": "Sherry",
+            "species": "dog",
+          },
+          Object {
+            "about": "This girl is a bundle of energy and ready to be your next adventure buddy! She is smart attentive and very tuned in to you. We think she would make an awesome agility dog. Coco is 11 months old and 32 lbs. She is spayed and UTD on her vaccines. Coco is a German Shepherd Fiest mix. So she has beauty and brains! She plays well with other dogs and loves children of all ages. She would love a home with room to run! Date in 11/25/18 Date available 11/25/18",
+            "id": 6,
+            "images": Array [
+              "images/pet-6-img-1.jpg",
+            ],
+            "location": "Redmond, WA",
+            "name": "Coco",
+            "species": "dog",
+          },
+          Object {
+            "about": "Hi guys. My name is Rex. 2 weeks ago I was living outside however these nice ladies rescued me and my brother (Tex). I'm super sad now as my brother got adopted this past weekend (even though I'm super happy for him) and I have no one to play with. I'd love an indoor forever home for the holidays especially with a feline siblings to play with. I've been neutered, had my rabies, FVRCP and I'm chipped.  My adoption fee is $65",
+            "id": 7,
+            "images": Array [
+              "images/pet-7-img-1.jpg",
+              "images/pet-7-img-2.jpg",
+            ],
+            "location": "Redmond, WA",
+            "name": "Rex",
+            "species": "cat",
+          },
+        ]
+      }
+      removePetCallback={[Function]}
+      selectPetCallback={[Function]}
+    />
+  </section>
+  <section
+    className="new-pet-form-wrapper"
+  >
+    <NewPetForm
+      addPetCallback={[Function]}
+    />
+  </section>
+</main>
+`;
