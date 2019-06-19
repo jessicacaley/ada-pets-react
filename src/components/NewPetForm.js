@@ -85,6 +85,9 @@ class NewPetForm extends Component {
         images: '', // required
         about: '',
       });
+
+      this.imagesPlaceholderText = 'image link'
+      this.invalidImage = ''
     
       this.props.addPetCallback(newPet);
     } else {
